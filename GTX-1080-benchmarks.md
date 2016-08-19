@@ -15,14 +15,18 @@ In original benchmark, Titan X was used. In numbers below, I put delta from it's
 
 ## Tensorflow 0.10rc
 
-* AlexNet:
-** forward: 22ms (-4ms, -15%)
-** for+back: 68ms (-13ms, -16%)
+1. AlexNet:
+    * forward: 22ms (-4ms, -15%)
+    * for+back: 68ms (-13ms, -16%)
 
-* GoogleNet
-** forward: 105ms (-30ms, -22%)
-** for+back: 342ms (-103ms, -23%)
+2. GoogleNet
+    * forward: 105ms (-30ms, -22%)
+    * for+back: 342ms (-103ms, -23%)
 
-* Overfeat
-** forward: 69ms (-21ms, -23%)
-** for+back: 232ms (-47ms, -16%)
+3. Overfeat
+   * forward: 69ms (-21ms, -23%)
+   * for+back: 232ms (-47ms, -16%)
+
+4. VGG (OxfordNet)
+   * forward: 124ms (-34ms, -21%)
+   * for+back: 394ms (-146ms, -27%)
